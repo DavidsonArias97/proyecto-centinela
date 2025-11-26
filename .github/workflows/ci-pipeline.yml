@@ -1,0 +1,30 @@
+name: Pipeline DevSecOps Centinela
+
+# ¿Cuándo se ejecuta? Al hacer push a la rama main
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  # Trabajo 1: Verificar que el código compila (Build)
+  build-test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    # Paso 1: Descargar el código del repositorio
+    - name: Checkout del código
+      uses: actions/checkout@v3
+
+    # Paso 2: Intentar construir la imagen del Backend
+    - name: Build Docker Backend
+      run: docker build ./backend -t centinela-backend:latest
+
+    # Paso 3: Intentar construir la imagen del Scraper
+    - name: Build Docker Scraper
+      run: docker build ./scraper -t centinela-scraper:latest
+
+    # Paso 4: Mensaje de éxito
+    - name: Notificar éxito
+      run: echo "¡Las imágenes Docker se construyeron correctamente!"
