@@ -25,7 +25,7 @@ La aplicación utiliza **FastAPI**, lo que genera automáticamente una documenta
 
 ### Paso 1: Acceder a la Interfaz
 Abra su navegador web e ingrese a la siguiente dirección:
-👉 **[http://localhost:8000/docs](http://localhost:8000/docs)**
+👉 **[http://localhost:8000](http://localhost:8000)**
 
 Verá una pantalla azul con la lista de funciones disponibles (Endpoints).
 
