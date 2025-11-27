@@ -34,10 +34,3 @@ def analizar_noticia(noticia: Noticia):
         "alerta_desinformacion": es_sospechosa,
         "mensaje": "Análisis completado por Centinela AI"
     }
-
-# --- ZONA DE PELIGRO ---
-# Esto es una vulnerabilidad intencional para probar el pipeline
-#def connect_to_aws():
-    # Gitleaks detectará este patrón de clave AKIA...
-#    aws_access_key_id = "AKIAIMW666S7BELOWKEY" 
-#    return "Conectado"
