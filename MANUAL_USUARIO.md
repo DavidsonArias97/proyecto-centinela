@@ -6,6 +6,8 @@ Esta sección describe cómo desplegar el Proyecto Centinela y cómo interactuar
 Para poner en marcha la plataforma en su entorno local, asegúrese de tener **Docker Desktop** instalado y ejecutándose.
 
 1.  **Clonar el repositorio:**
+    Ejecuta powershell
+    (Recuerda que debes tener instalado GIT)
     ```bash
     git clone https://github.com/javierprias/proyecto-centinela.git
     cd proyecto-centinela
