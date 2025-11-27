@@ -1,2 +1,5 @@
 fastapi
 uvicorn
+textblob
+pydantic
+requests
