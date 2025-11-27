@@ -29,7 +29,7 @@ La aplicación utiliza **FastAPI**, lo que genera automáticamente una documenta
 Abra su navegador web e ingrese a la siguiente dirección:
 👉 **[http://localhost:8000](http://localhost:8000)**
 
-Verá una pantalla azul con la lista de funciones disponibles (Endpoints).
+Verá una Icono azul con la lista de funciones disponibles (Endpoints).
 
 ### Paso 2: Verificar Estado (Health Check)
 1.  Haga clic en la barra verde **`GET /` Read Root**.
